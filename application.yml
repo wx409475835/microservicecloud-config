@@ -1,0 +1,19 @@
+spring:
+    profiles:
+        active:
+            - dev
+            
+---
+spring:
+    profiles: dev   #开发环境
+    application:
+        name: microservicecloud-config-nyist-dev
+      
+---
+spring:
+    profiles: test  #测试环境
+    application:
+        name: microservicecloud-config-nyist-test
+        
+     
+#请以UTF-8 的格式保存
